@@ -201,7 +201,7 @@ docker-compose up -d
 
 ### Website
 
-You should see the "Welcome! You have successfully installed the Fuel PHP Framework." page in your browser. If not, please check if your PHP installation satisfies Lumen's requirements.
+You should see the "Lumen (9.1.4) (Laravel Components ^9.21)" page in your browser. If not, please check if your PHP installation satisfies Lumen's requirements.
 
 ```
 https://example.com
@@ -234,7 +234,7 @@ add or remove code in the ```./webserver/extra/httpd-ssl.conf``` file for custom
 
 #### Database
 
-You may use the DB_* configuration options in your .env ```./lumen/webapp/.env.example``` configuration file to configure your database settings, such as the driver, host, username, and password.
+You may use the DB_* configuration options in your .env ```./lumen/webapp/.env``` configuration file to configure your database settings, such as the driver, host, username, and password.
 
 [https://lumen.laravel.com/docs/9.x/database](https://lumen.laravel.com/docs/9.x/database)
 
@@ -242,7 +242,7 @@ You may use the DB_* configuration options in your .env ```./lumen/webapp/.env.e
 
 #### Redis and Cache
 
-The cache configuration is located in the .env ```./lumen/webapp/.env.example``` file.
+The cache configuration is located in the .env ```./lumen/webapp/.env``` file.
 
 Redis host = redis
 
